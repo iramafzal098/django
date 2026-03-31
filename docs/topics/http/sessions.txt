@@ -26,7 +26,8 @@ To enable session functionality, do the following:
 If you don't want to use sessions, you might as well remove the
 ``SessionMiddleware`` line from :setting:`MIDDLEWARE` and
 ``'django.contrib.sessions'`` from your :setting:`INSTALLED_APPS`.
-It'll save you a small bit of overhead.
+This can reduce a small amount of overhead.
+
 
 .. _configuring-sessions:
 
